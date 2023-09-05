@@ -1,0 +1,36 @@
+.contact {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  height: 50px;
+}
+
+.fa-solid {
+  left: 0;
+}
+
+.bg-gray {
+  background-color: rgb(68, 65, 65);
+}
+
+.navbar .navbar-nav .nav-item::after {
+  width: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: red;
+  transition: 0.88s;
+}
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.pmain1 {
+  text-align: justify;
+}
+
+.title2 {
+  right: -2%;
+  top: -2%;
+}
+/*# sourceMappingURL=style.css.map */

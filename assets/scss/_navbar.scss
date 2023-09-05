@@ -1,0 +1,18 @@
+.bg-gray{
+    background-color: rgb(68, 65, 65);
+}
+.navbar{
+    .navbar-nav{
+      .nav-item::after{
+        width: 0;
+        content: "";
+            display: block;
+        height: 2px;
+        background-color: red;
+        transition: 0.88s;
+            }
+        .nav-item:hover::after{
+         width: 100%;
+            }
+    }
+}

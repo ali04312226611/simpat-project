@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=byekan"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.1-dist/css/bootstrap.rtl.min.css"
+    />
+    <script
+      src="./assets/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>simpat smart systems</title>
+    <link rel="shortcut icon" href="./assets/images/sss.jpg" type="image/x-icon">
+  </head>
+  <body class="bodystyle">
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg bg-gray m-2  rounded-3 position-sticky top-0 z-2  "
+    >
+      <div class="container-fluid py-1">
+        <a class="navbar-brand text-white bg-danger p-2 rounded-2" href="#"
+          >شرکت سیم پات ایرانیان</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >صفحه اصلی</a
+              >
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                 محصولات
+              </a>
+              <ul class="dropdown-menu">
+                <li class="bg-sekondary"><a class="dropdown-item pt-2" href="#">رسا 4000</a></li>
+                <li><a class="dropdown-item pt-2" href="#">رسا 3003 </a></li>
+                <li><a class="dropdown-item pt-2" href="#">رسا 3000</a></li>
+                <li><a class="dropdown-item pt-2" href="#">رسا 3001</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >تماس با ما
+              </a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                منوی اصلی
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">محصولات</a></li>
+                <li><a class="dropdown-item" href="#">درباره شرکت</a></li>
+                <li><a class="dropdown-item" href="#">خدمات</a></li>
+                <li><a class="dropdown-item" href="#">نمایندگی ها</a></li>
+                <li><a class="dropdown-item" href="#"> تماس با ما</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+          
+          
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-warning" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+        <!--modal-cantact us-->
+        <button type="button" class="  btn btn-danger contact  z-2 position-fixed  rounded-5 position-absolute " data-bs-toggle="modal" data-bs-target="#message"> پشتیبانی آنلاین<i class="fa-solid fa-phone-volume ps-2"></i> </button>
+        <div class="modal fade " id="message">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="text-center">simpat-smart-systems</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <label for="email" class="position-relative d-block pt-2 "><i class=" fa-solid fa-envelope position-absolute"></i>آدرس ایمیل</label>
+                  <input type="email" id="email" name="email" class="w-100 text-center" placeholder="لطفا آدرس ایمیل خود را وارد کنید "><br>
+    
+                  <label for="username" class="position-relative d-block pt-2"> <i class="fa-solid fa-user position-absolute"></i>نام ونام خانوادگی </label>
+                  <input type="text" id="username" name="username" class="w-100 text-center " placeholder="لطفا نام ونام خانوادگی خود را وارد کنید"><br>
+                 <label for="title">متن درخواست</label><br>
+                  <textarea name="title" id="title" cols="30" rows="10" class="w-100 overflow-auto"></textarea>
+                  <button class="btn btn-primary mybtn" >ارسال درخواست</button>
+                  <button type="button"  class="btn btn-danger " data-bs-dismiss="modal">بستن صفحه</button>
+                </form>
+              </div><hr>
+                <div class="container">
+                <div class=" row">
+                    <div class="numbers">
+                      <ul class="list-unstyled">شماره تماس
+                        <li class="user-select-all">02634708391</li>
+                        <li class="user-select-all">02634708392</li>
+                        <li class="user-select-all">02634700181</li>
+                      </ul>
+                    </div>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+    <!--slide-->
+    <div class="container rounded-3 p-2 shadow mt-3 carousel-fade">
+     
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <a href="#">
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./assets/images/quality.jpg" class="d-block w-100" alt="3001" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="carousel-item" data-bs-interval="3000" >
+              <img src="./assets/images/3003-black-slide.jpg" class="d-block w-100" alt="3003" />
+            </div>
+          </a>
+          <a href="#">
+            <div class="carousel-item active " data-bs-interval="3000">
+              <img src="./assets/images/4000-black-slide.jpg" class="d-block w-100" alt="2000" />
+            </div>
+          </a>
+        </div>
+        <button
+          class="carousel-control-prev bg-black bg-opacity-25"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying "
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--main 1-->
+    <div class="container mt-3 shadow rounded-3">
+      <div class="row align-items-center justify-content-around mt-2">
+        <div class="main1text col-sm-12 col-lg-6 bg-secondary rounded-3">
+          <h3 class="h2main1 text-center mt-1 text-white">
+            شرکت سیم پات ایرانیان
+          </h3>
+          <h5 class="h4main1 text-center text-white">
+            تولید کننده انحصاری رطوبت سنج غلات در ایران
+          </h5>
+          <p class="pmain1 text-justify text-white">
+            شرکت فنی و مهندسی سیستم های هوشمند سیم پات (الکترونیک صنعتی البرز
+            سابق ) از سال 1368 فعالیت خود را در زمینه تولید ابزارها وتجهیزات
+            تخصصی صنایع کشاورزی آغاز نمود.این شرکت طی بیش از دو دهه فعالیت تخصصی
+            خود با تلاش بی وقفه مدیران ومجموعه تولید موفق به تولید ابزارهای
+            اندازه گیری گوناگونی جهت سنجش پارامترهایی نظیر رطوبت وافت محصولات
+            کشاورزی با نام تجاری رسا گردید که این شرکت را به عنوان یکی از شرکت
+            های مجرب و تخصصی در صنعت کشاورزی ایران مطرح نمود . فعالیت های شرکت
+            سیم پات از سال 1389 بر پایه استانداردها و فن اوریهای روز دنیا در
+            شاخه های نوینی همچون طراحی و ساخت ایزارهایی جدید اندازه گیری افت
+            ،ضایعات و ... محصولات کشاورزی گسترش یافت .
+          </p>
+        </div>
+        <div class="main1img col-sm-12 col-lg-6 rounded-3">
+          <img src="./assets/images/main-image-company.jpg" alt="simpat" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!--maincard-->
+    <div class="container mt-4 rounded-3 position-relative border-top">
+      <div
+        class="title2 position-absolute p-2 text-center bg-danger text-white rounded-3 shadow z-1"
+      >
+         ویدئوها
+      </div>
+      <div class="row justify-content-around p-4 ">
+        <div class="card shadow" style="width: 18rem">
+          <video   controls width="250px" height="150px">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.mp4" type="video/mp4">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.ogg" type="video/ogg">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.webm" type="video/webm">
+          </video>
+          <div class="card-body">
+            <p class="card-text text-center">
+               <p>رطویت سنج الکترونیکی رسا 3003</p>
+               <p> روش اندازه گیری رطوبت گندم</p>
+              با قابلیت اندازه گیری رطوبت انواع غلات ومحصولات زراعی
+            </p>
+          </div>
+        </div>
+        <div class="card shadow" style="width: 18rem">
+          <video   controls width="250px" height="150px">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.mp4" type="video/mp4">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.ogg" type="video/ogg">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.webm" type="video/webm">
+          </video>
+          <div class="card-body">
+            <p class="card-text text-center">
+              گندم (نام علمی: Triticum)از مهم‌ترین غلات است که جزو قوت غالب مردم
+              جهان به‌شمار می‌رود این گیاه در گونه‌های وحشی و اهلی موجود است
+            </p>
+          </div>
+        </div>
+        <div class="card shadow" style="width: 18rem">
+          <video   controls width="250px" height="150px">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.mp4" type="video/mp4">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.ogg" type="video/ogg">
+            <source src="./assets/video/164f255eafaf6d0a26862fe6f85ee71d21682674-240p.webm" type="video/webm">
+          </video>
+          <div class="card-body">
+            <p class="card-text text-center">
+              لوبیا روغنی یا سویا (به فرانسوی: soja، soya) یکی از بقولات است.
+              نیام و دانه آن (لوبیا) غذای میلیون‌ها نفر را فراهم می‌کنند و در
+              تهیه مواد شیمیایی نقش عمده دارند.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--maincar4 6-->
+    <div class="container mt-4 rounded-3 position-relative border-top">
+      <div
+        class="title2 position-absolute p-2 text-center bg-danger text-white rounded-3 shadow z-1"
+      >
+        محصولات پر طرفدار
+      </div>
+      <div class="row pt-4">
+        <div class="card shadow col-sm-6 col-lg-3">
+          <img src="./assets/images/card11.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center"> رسا 3003</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-warning p-2 d-block btn"
+              ><i class="fa-solid fa-cart-shopping pe-2"></i>خرید</a
+            >
+          </div>
+        </div>
+        <div class="card shadow col-sm-6 col-lg-3">
+          <img src="./assets/images/card22.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">رسا 4000</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-warning d-block"><i class="fa-solid fa-cart-shopping pe-2"></i>خرید</a>
+          </div>
+        </div>
+        <div class="card shadow col-sm-6 col-lg-3">
+          <img src="./assets/images/card33.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">رسا 2000</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-warning d-block"><i class="fa-solid fa-cart-shopping pe-2"></i>خرید</a>
+          </div>
+        </div>
+        <div class="card shadow col-sm-6 col-lg-3">
+          <img src="./assets/images/card44.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">رسا 3000</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-warning d-block"><i class="fa-solid fa-cart-shopping pe-2"></i>خرید</a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid mt-2">
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white rounded-3"
+        style="background-color: #76787b"
+      >
+        <!-- Grid container -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h4 class="text-uppercase mb-5 font-weight-bold text-center">
+                  شرکت سیم پات ایرانیان
+                </h4>
+                <p class="text-center">
+                  تولید کننده انصاری رطوبت سنج های سری رسا در ایران با قابلیت
+                  تولید انواع رطوبت سنج خشکبار- غلات-خوراک دام و طیور -انواع بذر
+                  و...
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-1">
+                <h4 class="mt-2">محصولات</h4>
+                <p>
+                  <a class="btn btn-outline-warning text-white">رسا 4000</a>
+                </p>
+                <p>
+                  <a class="btn btn-outline-warning text-white">رسا 3003</a>
+                </p>
+                <p>
+                  <a class="btn btn-outline-warning text-white">رسا 3000</a>
+                </p>
+                <p>
+                  <a class="btn btn-outline-warning text-white">رسا 2000</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h4 class="text-uppercase mb-4 font-weight-bold">ارتباط  با ما</h4>
+                <p>
+                  <i class="fas fa-home mr-3"></i> کرج -میانجاده -کوچه صنعت -
+                  پلاک 5
+                </p>
+                <p><i class="fas fa-envelope mr-3"></i> info@simpat.ir</p>
+                <p><i class="fas fa-phone mr-3"></i> 02634555698</p>
+                <p><i class="fas fa-print mr-3"></i> 02634558798</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #3b5998"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #55acee"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #dd4b39"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #ac2bac"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #0082ca"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  style="background-color: #333333"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/"
+            >simpat-rasa.ir</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+     
+    </div>
+   
+    <!-- End of .container -->
+
+
+  </body>
+</html>
