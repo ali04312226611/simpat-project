@@ -1,7 +1,6 @@
 {
   "name": "final-proj",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
@@ -14,5 +13,6 @@
   },
   "dependencies": {
     "live-server": "^1.2.2"
-  }
+  },
+  "description": ""
 }
